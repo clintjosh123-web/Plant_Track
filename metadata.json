@@ -1,0 +1,6 @@
+{
+  "name": "Plant Track",
+  "description": "Plant growth monitoring app with watering reminders, sunlight alerts, growth charts, weekly photo timelines, and care tips.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

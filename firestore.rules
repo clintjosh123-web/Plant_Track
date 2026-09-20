@@ -1,0 +1,27 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // User profile and private plant tracking data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /plants/{plantId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /growth_records/{recordId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /growth_photos/{photoId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+      match /reminders/{reminderId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // Subscriptions and transaction logs
+    match /subscriptions/{subscriptionId} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

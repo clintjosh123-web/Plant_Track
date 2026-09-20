@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#78C244"/>
+      <stop offset="100%" stopColor="#3B8E22"/>
+    </linearGradient>
+    <linearGradient id="potGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#28693E"/>
+      <stop offset="100%" stopColor="#134726"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Circular Ring -->
+  <circle cx="240" cy="205" r="145" fill="none" stroke="#1D602F" stroke-width="14" stroke-linecap="round"/>
+
+  <!-- Sprouting Leaves at Top-Right of Ring -->
+  <!-- Topmost leaf -->
+  <path d="M 330 145 C 330 85, 375 55, 415 65 C 415 105, 385 145, 330 145 Z" fill="#69B738" />
+  <path d="M 330 145 Q 375 100 415 65" stroke="#4E9923" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- Second leaf -->
+  <path d="M 345 155 C 365 140, 420 135, 435 170 C 400 200, 355 185, 345 155 Z" fill="#78C244" />
+  <path d="M 345 155 Q 395 160 435 170" stroke="#52A127" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Smartphone Body Frame -->
+  <rect x="165" y="105" width="150" height="210" rx="28" fill="#FFFFFF" stroke="#0F421F" stroke-width="12"/>
+  <!-- Phone Speaker Slot -->
+  <rect x="222" y="117" width="36" height="6" rx="3" fill="#0F421F"/>
+
+  <!-- Phone UI: Hamburger Menu top-left -->
+  <rect x="185" y="140" width="16" height="3" rx="1.5" fill="#0F421F"/>
+  <rect x="185" y="147" width="16" height="3" rx="1.5" fill="#0F421F"/>
+  <rect x="185" y="154" width="16" height="3" rx="1.5" fill="#0F421F"/>
+
+  <!-- Phone UI: Vertical icons on right side -->
+  <!-- Icon 1: Height Arrows (↕) in soft pill -->
+  <g transform="translate(285, 170)">
+    <rect x="-14" y="-14" width="28" height="28" rx="14" fill="#EDF6EE"/>
+    <line x1="0" y1="-8" x2="0" y2="8" stroke="#1D602F" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -4 -4 L 0 -8 L 4 -4" stroke="#1D602F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M -4 4 L 0 8 L 4 4" stroke="#1D602F" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Icon 2: Leaf icon in pill -->
+  <g transform="translate(285, 206)">
+    <rect x="-14" y="-14" width="28" height="28" rx="14" fill="#EDF6EE"/>
+    <path d="M -6 6 C -6 -6, 6 -6, 6 -6 C 6 6, -6 6, -6 6 Z" fill="#2E7D32"/>
+    <path d="M -6 6 L 6 -6" stroke="#FFFFFF" stroke-width="1.5" fill="none"/>
+  </g>
+
+  <!-- Icon 3: Water drop icon in pill -->
+  <g transform="translate(285, 242)">
+    <rect x="-14" y="-14" width="28" height="28" rx="14" fill="#EDF6EE"/>
+    <path d="M 0 -8 C -5 -2, -6 2, -6 4 C -6 7.3, -3.3 10, 0 10 C 3.3 10, 6 7.3, 6 4 C 6 2, 5 -2, 0 -8 Z" fill="#1E88E5"/>
+  </g>
+
+  <!-- Icon 4: Calendar icon in pill -->
+  <g transform="translate(285, 278)">
+    <rect x="-14" y="-14" width="28" height="28" rx="14" fill="#EDF6EE"/>
+    <rect x="-7" y="-6" width="14" height="13" rx="2" fill="none" stroke="#0F421F" stroke-width="2"/>
+    <line x1="-7" y1="-2" x2="7" y2="-2" stroke="#0F421F" stroke-width="1.5"/>
+    <circle cx="-3.5" cy="2" r="1.2" fill="#1D602F"/>
+    <circle cx="0" cy="2" r="1.2" fill="#1D602F"/>
+    <circle cx="3.5" cy="2" r="1.2" fill="#1D602F"/>
+  </g>
+
+  <!-- Plant Pot & Soil -->
+  <!-- Soil mound -->
+  <ellipse cx="225" cy="270" rx="35" ry="9" fill="#5D4037"/>
+  <!-- Pot Rim -->
+  <rect x="188" y="267" width="74" height="10" rx="4" fill="#1B5E33"/>
+  <!-- Pot Body (tapered) -->
+  <path d="M 193 277 L 200 316 C 201 320, 204 323, 208 323 L 242 323 C 246 323, 249 320, 250 316 L 257 277 Z" fill="url(#potGrad)"/>
+
+  <!-- Sprouting Plant Leaves -->
+  <!-- Main Stem -->
+  <path d="M 225 272 Q 223 235 228 200" stroke="#388E3C" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Left Lateral Leaf (breaking boundary) -->
+  <path d="M 223 260 C 175 255, 140 215, 150 188 C 178 190, 208 225, 223 260 Z" fill="#60B034"/>
+  <path d="M 223 260 Q 185 220 150 188" stroke="#3D7E20" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Right Lateral Leaf -->
+  <path d="M 226 248 C 245 235, 285 225, 298 250 C 275 275, 240 262, 226 248 Z" fill="#69B738"/>
+  <path d="M 226 248 Q 265 245 298 250" stroke="#489025" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-Upright Leaf (Large primary) -->
+  <path d="M 226 250 C 205 200, 200 155, 228 145 C 255 155, 250 200, 226 250 Z" fill="#71BE3B"/>
+  <path d="M 226 250 Q 225 185 228 145" stroke="#448B22" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Center-Right Upright Leaf -->
+  <path d="M 227 225 C 235 190, 255 165, 275 160 C 275 190, 255 215, 227 225 Z" fill="#58A636"/>
+  <path d="M 227 225 Q 255 185 275 160" stroke="#3A7720" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- "PlantTrack" Typography -->
+  <g id="brand-text" fill="#0C451E" font-family="'Plus Jakarta Sans', 'Outfit', 'Arial Rounded MT Bold', -apple-system, sans-serif" font-weight="900">
+    <!-- Stylized P with leaf cutout -->
+    <path d="M 52 388 L 68 388 L 68 360 L 86 360 C 104 360, 116 350, 116 336 C 116 322, 104 312, 86 312 L 52 312 Z M 68 346 L 68 326 L 84 326 C 94 326, 100 330, 100 336 C 100 342, 94 346, 84 346 Z" fill="#0C451E"/>
+    <!-- Leaf vein cutout inside P -->
+    <path d="M 64 348 C 65 330, 85 328, 92 328 C 92 338, 80 350, 64 348 Z" fill="#FFFFFF"/>
+    <path d="M 64 348 Q 80 338 92 328" stroke="#0C451E" stroke-width="2" fill="none"/>
+
+    <!-- L -->
+    <path d="M 124 310 L 140 310 L 140 388 L 124 388 Z"/>
+    <!-- a -->
+    <path d="M 175 332 C 160 332, 148 344, 148 362 C 148 379, 160 390, 175 390 C 185 390, 192 385, 196 380 L 196 388 L 210 388 L 210 354 C 210 338, 197 332, 175 332 Z M 180 376 C 169 376, 163 370, 163 361 C 163 352, 170 346, 180 346 C 190 346, 196 351, 196 361 C 196 371, 190 376, 180 376 Z"/>
+    <!-- n -->
+    <path d="M 222 334 L 236 334 L 236 343 C 241 336, 248 332, 258 332 C 272 332, 279 341, 279 356 L 279 388 L 264 388 L 264 360 C 264 350, 260 346, 252 346 C 243 346, 237 352, 237 363 L 237 388 L 222 388 Z"/>
+    <!-- t -->
+    <path d="M 292 318 L 292 334 L 284 334 L 284 346 L 292 346 L 292 374 C 292 384, 297 389, 308 389 C 313 389, 317 388, 320 386 L 320 373 C 318 374, 315 375, 312 375 C 308 375, 306 373, 306 368 L 306 346 L 319 346 L 319 334 L 306 334 L 306 318 Z"/>
+
+    <!-- T (Track in slightly brighter fresh green) -->
+    <g fill="#4F9F2A">
+      <path d="M 326 312 L 358 312 L 358 326 L 349 326 L 349 388 L 334 388 L 334 326 L 326 326 Z"/>
+      <!-- r -->
+      <path d="M 364 334 L 378 334 L 378 344 C 382 336, 389 332, 396 332 C 399 332, 402 333, 404 334 L 401 349 C 398 347, 395 347, 392 347 C 383 347, 378 354, 378 366 L 378 388 L 364 388 Z"/>
+      <!-- a -->
+      <path d="M 423 332 C 408 332, 396 344, 396 362 C 396 379, 408 390, 423 390 C 433 390, 440 385, 444 380 L 444 388 L 458 388 L 458 354 C 458 338, 445 332, 423 332 Z M 428 376 C 417 376, 411 370, 411 361 C 411 352, 418 346, 428 346 C 438 346, 444 351, 444 361 C 444 371, 438 376, 428 376 Z"/>
+      <!-- c -->
+      <path d="M 480 345 C 476 343, 471 341, 466 341 C 456 341, 448 349, 448 361 C 448 373, 456 380, 466 380 C 471 380, 477 378, 481 375 L 485 387 C 479 390, 472 392, 464 392 C 446 392, 433 379, 433 361 C 433 343, 446 330, 464 330 C 472 330, 479 332, 484 335 Z"/>
+      <!-- k -->
+      <path d="M 490 310 L 504 310 L 504 353 L 522 334 L 540 334 L 518 358 L 541 388 L 523 388 L 508 368 L 504 372 L 504 388 L 490 388 Z" transform="translate(-10, 0)"/>
+    </g>
+  </g>
+
+  <!-- Bottom Curved Green Arc / Swoosh -->
+  <path d="M 110 422 Q 250 395 400 424 Q 250 405 110 422 Z" fill="#388E3C"/>
+</svg>
